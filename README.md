@@ -48,7 +48,7 @@ José Ailton
 Projeto desenvolvido para fins de estudo.
 
 
-## 📸 Telas do sistema
+##  Telas do sistema
 
 ### Tela de Login
 ![Login](assets/tela_login.png)
