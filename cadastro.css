@@ -1,0 +1,146 @@
+*{
+
+padding: 0px;
+margin: 0px;
+
+}
+body{
+    background-image: url("img/cadastro.png");
+}
+
+img{
+    margin-left: 28%;
+    width: 400px;
+
+}
+
+.cadastros{
+    font-family: Georgia;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 35px;
+    padding-top: 20px;      /* espaço interno em cima */
+
+
+    text-shadow: 0px 0px 5px rgb(0, 0, 0),
+                 0px 0px 10px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.caixa{
+
+    flex-direction: column;  /* inputs em coluna */
+    gap: 15px;               /* espaço entre os campos */
+    width: 350px;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+
+    border-radius: 20px;
+    padding: 30px ;
+    
+
+
+    padding-top: 20px;      /* espaço interno em cima */
+    padding-right: 5%;     /* espaço interno à direita */
+    padding-bottom: auto;   /* espaço interno embaixo */
+    padding-left: 10px;      /* espaço interno à esquerda */
+    margin-top: 1%;
+    margin-left: 0px;
+
+
+
+    background: rgba(0, 0, 0, 0.7); /* preto com 70% de opacidade */
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),
+                 0px 0px 10px rgb(0, 0, 0),
+                 0px 0px 15px rgb(0, 0, 0),
+                 0px 0px 20px rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+
+
+
+
+}
+
+
+
+
+button{
+    font-family: Georgia;
+    padding: 10px 115px;
+    border-radius: 20px;
+    border-color: #ffffff;
+    margin-left: 8%;
+    margin-top: 6%;
+    
+    text-shadow: 0px 0px 5px rgb(0, 0, 0),
+                 0px 0px 10px rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0); 
+    color: rgb(253, 253, 253);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),
+                0px 0px 10px rgb(0, 0, 0),
+                0px 0px 15px rgb(0, 0, 0),
+                0px 0px 20px rgb(12, 12, 12);
+
+
+
+}
+
+button:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px #3fb0f1;
+}
+
+button:active{
+    background-color: rgb(34, 209, 240);
+}
+
+input{
+    
+    width:100%;
+    padding: 14px 20px;
+    font-size:17px;
+    border: none;              /* remove todas as bordas */
+    border-bottom: 2px solid #f5f5f5; /* cria só a linha embaixo */
+    outline:none;    /* remove a borda azul ao clicar */
+    background: transparent; /* fundo invisível */
+    color: #ffffff;
+
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+input:focus {
+    border-bottom: 3px solid #ffffff; /* muda a cor ao clicar */
+}
+
+
+
+
+p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Helvetica;
+    margin-left: 55px;
+    color: rgb(255, 0, 0);
+
+    
+
+
+}
+
+.voltar {
+    color: rgb(253, 252, 252);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -80%;
+
+}
+
+
