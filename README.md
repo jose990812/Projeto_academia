@@ -46,3 +46,18 @@ José Ailton
 ---
 
 Projeto desenvolvido para fins de estudo.
+
+
+## 📸 Telas do sistema
+
+### Tela de Login
+![Login](assets/tela_login.png)
+
+### Tela de Cadastro
+![Cadastro](assets/tela_cadastro.png)
+
+### Tela do Aluno
+![Aluno](assets/tela_aluno.png)
+
+### Tela do Professor
+![Professor](assets/tela_proff.png)
